@@ -1,0 +1,46 @@
+@import "tailwindcss/preflight" layer(base);
+@import "tailwindcss/theme" layer(theme);
+@import "tailwindcss/utilities" layer(utilities);
+
+html {
+  line-height: 1.8;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-wrap: anywhere;
+  word-break: normal;
+  line-break: strict;
+}
+
+@theme {
+  --font-logo: "Oswald", sans-serif;
+  --font-heading: "Nunito Sans", sans-serif;
+  --font-default: "Noto Sans JP", sans-serif;
+
+  --breakpoint-*: initial;
+  --breakpoint-md: 48rem;
+  --breakpoint-lg: 64rem;
+
+  --color-default: #240305;
+  --color-main: #770b11;
+  --color-sub: #0094A4;
+  --color-accent: #E83817;
+  --color-bg: #f6f4f4;
+
+  --default-font-family: var(--font-default);
+}
+
+@layer components {
+  .slide-fadeUp-enter-active {
+    transition: all 0.8s ease;
+  }
+  .slide-fadeUp-enter-from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  .slide-fadeUp-enter-to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
