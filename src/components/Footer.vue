@@ -18,6 +18,6 @@ import Logo from './Logo.vue';
         <li><RouterLink class="transition-[opacity_0.3s] hover:opacity-70 max-md:underline max-md:underline-offset-[3px]" to="/#contact">Contact</RouterLink></li>
       </ul>
     </div>
-    <small class="block mt-8">&copy; 2025 TOORU KATSUMATA. All Rights Reserved.</small>
+    <small class="block mt-8">&copy; 2025 SORAINU. All Rights Reserved.</small>
   </footer>
 </template>

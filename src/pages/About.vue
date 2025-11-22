@@ -11,7 +11,7 @@ import PageFadeUp from "../components/pageFadeUp.vue";
 const biography = ref<Biography[]>(biographyItem);
 
 useHead({
-  title: "About | TOORU KATSUMATA Web Portfolio",
+  title: "About | SORAINU STUDIO Web Portfolio",
   meta: [{ name: "description", content: "自己紹介ページです。" }],
 });
 
@@ -74,20 +74,20 @@ onBeforeUnmount(() => {
     <div class="@container px-[2.667%] md:px-6 mt-20">
       <div class="flex @4xl:flex-row flex-col items-center @4xl:gap-[5.8%] gap-9">
         <figure class="shrink-0 fadeTarget fadeLeft" v-intersect>
-          <img class="rounded-[8px]" src="../assets/images/index-about.jpg" width="300" height="420" alt="勝又亨のプロフィール写真" />
+          <img class="rounded-[8px]" src="../assets/images/index-about.jpg" width="300" height="420" alt="ソライヌのプロフィール写真" />
         </figure>
         <dl class="fadeTarget fadeRight" v-intersect>
           <div role="group" aria-labelledby="name-label" class="md:flex px-2 py-4 border-b border-gray-500">
             <dt id="name-label" class="shrink-0 w-28 font-medium">名前</dt>
-            <dd class="max-md:mt-2 max-md:ml-[1em]">勝又　亨（カツマタ　トオル）</dd>
+            <dd class="max-md:mt-2 max-md:ml-[1em]">ソライヌ</dd>
           </div>
           <div role="group" aria-labelledby="birthday-label" class="md:flex px-2 py-4 border-b border-gray-500">
-            <dt id="birthday-label" class="shrink-0 w-28 font-medium">生年月日</dt>
-            <dd class="max-md:mt-2 max-md:ml-[1em]">1985年11月1日</dd>
+            <dt id="birthday-label" class="shrink-0 w-28 font-medium">誕生日</dt>
+            <dd class="max-md:mt-2 max-md:ml-[1em]">11月1日</dd>
           </div>
           <div role="group" aria-labelledby="birthplace-label" class="md:flex px-2 py-4 border-b border-gray-500">
             <dt id="birthplace-label" class="shrink-0 w-28 font-medium">出身地</dt>
-            <dd class="max-md:mt-2 max-md:ml-[1em]">静岡県富士宮市</dd>
+            <dd class="max-md:mt-2 max-md:ml-[1em]">静岡県</dd>
           </div>
           <div role="group" aria-labelledby="currentLocation-label" class="md:flex px-2 py-4 border-b border-gray-500">
             <dt id="currentLocation-label" class="shrink-0 w-28 font-medium">現住所</dt>
@@ -95,7 +95,7 @@ onBeforeUnmount(() => {
           </div>
           <div role="group" aria-labelledby="educational-label" class="md:flex px-2 py-4 border-b border-gray-500">
             <dt id="educational-label" class="shrink-0 w-28 font-medium">最終学歴</dt>
-            <dd class="max-md:mt-2 max-md:ml-[1em]">沼津情報専門学校 コンピュータ科 情報処理コース<br />（現：沼津情報・ビジネス専門学校 コンピュータ科）<br />※2004年4月入学 2006年3月卒業</dd>
+            <dd class="max-md:mt-2 max-md:ml-[1em]">沼津情報専門学校 コンピュータ科 情報処理コース<br />（現：沼津情報・ビジネス専門学校 コンピュータ科）</dd>
           </div>
           <div role="group" aria-labelledby="career-label" class="md:flex px-2 py-4">
             <dt class="shrink-0 w-28 font-medium">経歴</dt>

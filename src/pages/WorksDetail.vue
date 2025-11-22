@@ -15,7 +15,7 @@ const articles = ref<Work[]>([]);
 const skillData = ref<SkillData>(skillJson);
 const prevWork = ref<Work | null>(null);
 const nextWork = ref<Work | null>(null);
-const dynamicTitle = ref("Works | TOORU KATSUMATA Web Portfolio");
+const dynamicTitle = ref("Works | SORAINU STUDIO Web Portfolio");
 const descContent = ref("これまでの業務や趣味で開発したサイトの成果物を掲載しております。")
 
 function getMatchedIcons(names: string[], source: { name: string, iconUrl: string }[]): { name: string; iconUrl: string }[] {
@@ -70,7 +70,7 @@ const fetchWork = async (slug: string) => {
 
     const title = data.contents[0]?.title;
     if (title) {
-      dynamicTitle.value = `${title} | TOORU KATSUMATA Web Portfolio`;
+      dynamicTitle.value = `${title} | SORAINU STUDIO Web Portfolio`;
       descContent.value = `成果物「${title}」の詳細を掲載しております。`
     }
 
@@ -209,7 +209,9 @@ watch(() => route.params.slug, (newSlug) => {
       <figure class="w-full md:w-2/5 fadeTarget fadeLeft" v-intersect>
         <img
           class="w-full aspect-[4/3] object-cover"
-          :src="`${articles[0]?.thumbnail.url}`"
+          :src="articles[0]?.thumbnail.url === 'https://images.microcms-assets.io/assets/ea8d87423a9645e48b00fd67189641cd/1257454c3f6744ebb12b11214b19ab64/works019.jpg'
+              ? '/src/assets/images/works019.jpg'
+              : articles[0]?.thumbnail.url"
           width="712"
           height="534"
           :alt="`成果物「${articles[0]?.title}」のサムネイル画像`"
@@ -223,7 +225,17 @@ watch(() => route.params.slug, (newSlug) => {
         <div v-if="articles[0]?.siteUrl" role="group" aria-labelledby="siteUrl" class="grid grid-cols-1 md:grid-cols-[25.362%_1fr] place-items-start gap-2 md:gap-6 py-5 border-t border-gray-600">
           <dt id="siteUrl" class="font-bold">サイトURL</dt>
           <dd class="max-md:ml-[1em]">
-            <a class="underline underline-offset-6 transition-[color_0.3s] hover:text-sub" :href="`${articles[0]?.siteUrl}`" target="_blank">{{ articles[0]?.siteUrl }}</a> 
+            <a
+              class="underline underline-offset-6 transition-[color_0.3s] hover:text-sub"
+              :href="articles[0]?.siteUrl === 'https://webportfolio-psi.vercel.app/'
+              ? 'https://sora_webportfolio-psi.vercel.app/'
+              : articles[0]?.siteUrl"
+              target="_blank"
+            >
+              {{ articles[0]?.siteUrl === 'https://webportfolio-psi.vercel.app/'
+              ? 'https://sora_webportfolio-psi.vercel.app/'
+              : articles[0]?.siteUrl }}
+            </a> 
           </dd>
         </div>
         <div role="group" aria-labelledby="period" class="grid grid-cols-1 md:grid-cols-[25.362%_1fr] place-items-start gap-2 md:gap-6 py-5 border-t border-b border-gray-600">

@@ -5,7 +5,7 @@ import Skills from "../components/Skills.vue";
 import PageFadeUp from "../components/pageFadeUp.vue";
 
 useHead({
-  title: "Skills | TOORU KATSUMATA Web Portfolio",
+  title: "Skills | SORAINU STUDIO Web Portfolio",
   meta: [{ name: "description", content: "業務に活かせる技術、経験を紹介するページです。" }],
 });
 </script>

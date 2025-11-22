@@ -6,7 +6,7 @@ import PageFadeUp from '../components/pageFadeUp.vue';
 import AllWorks from '../components/Works/AllWorks.vue';
 
 useHead({
-  title: "Works | TOORU KATSUMATA Web Portfolio",
+  title: "Works | SORAINU STUDIO Web Portfolio",
   meta: [{ name: "description", content: "これまでの業務や趣味で開発したサイトの成果物を掲載しております。" }],
 });
 </script>

@@ -12,8 +12,8 @@ import PageFadeUp from "../components/pageFadeUp.vue";
 import ScrollLine from "../ui/scrollLine.vue";
 
 useHead({
-  title: "TOORU KATSUMATA Web Portfolio",
-  meta: [{ name: "description", content: "TOORU KATSUMATAのポートフォリオサイトです" }],
+  title: "SORAINU STUDIO Web Portfolio",
+  meta: [{ name: "description", content: "ソライヌのポートフォリオサイトです" }],
 });
 
 const showContent = ref<boolean>(false);
@@ -93,14 +93,14 @@ watch(showContent, async (newVal) => {
         <H2Heading id="about-heading" title="About" subtitle="自己紹介" />
         <section class="flex flex-col-reverse md:flex-row-reverse gap-16 items-center mt-10">
           <div class="fadeTarget fadeRight">
-            <h3 class="text-3xl font-semibold"><span class="block text-[0.5em]">TOORU KATSUMATA</span>勝又　亨</h3>
+            <h3 class="text-3xl font-semibold"><span class="block text-[0.5em]">SORAINU</span>ソライヌ</h3>
             <p class="mt-10">
               静岡県生まれのフロントエンドエンジニア。専門学校ではCやC++といったプログラミング言語を学び、新卒から約8年間、光送受信機や自動車メーターなどのソフトウェア・ハードウェアのデバッグ業務に従事。学生時代から趣味として取り組んでいたWeb開発を仕事にしたいと考え、2017年にWeb制作会社へ転職。サイト更新業務からキャリアをスタートし、サイトリニューアルにおけるフルコーディング、食品関連サイトの運営・保守、WordPressや国産CMSを用いたサイト構築など、幅広い業務を経験してきました。
             </p>
             <ButtonDefault url="/about" text="More Profile" class="mt-12" />
           </div>
           <figure class="fadeTarget fadeLeft shrink-0">
-            <img src="../assets/images/index-about.jpg" width="300" height="420" alt="勝又亨のプロフィール写真" loading="lazy" />
+            <img src="../assets/images/index-about.jpg" width="300" height="420" alt="ソライヌのプロフィール写真" loading="lazy" />
           </figure>
         </section>
       </CommonSection>
