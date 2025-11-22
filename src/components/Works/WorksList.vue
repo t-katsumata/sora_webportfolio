@@ -41,7 +41,7 @@ const getWorkCategoryClass = (category: string) => {
           <img
             class="w-full aspect-[4/3] object-cover"
             :src="article.thumbnail.url === 'https://images.microcms-assets.io/assets/ea8d87423a9645e48b00fd67189641cd/1257454c3f6744ebb12b11214b19ab64/works019.jpg'
-              ? '/src/assets/images/works019.jpg'
+              ? 'https://images.microcms-assets.io/assets/ea8d87423a9645e48b00fd67189641cd/9d9e2e79dfa944bfba34db56195cc26d/works019_sora.jpg'
               : article.thumbnail.url"
             :width="336"
             :height="252"
