@@ -1,6 +1,6 @@
 // 略歴
 export interface Biography {
-  year: number;
+  year: string;
   imageUrl: string;
   title: string;
   text: string;

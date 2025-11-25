@@ -95,7 +95,7 @@ watch(showContent, async (newVal) => {
           <div class="fadeTarget fadeRight">
             <h3 class="text-3xl font-semibold"><span class="block text-[0.5em]">SORAINU</span>ソライヌ</h3>
             <p class="mt-10">
-              静岡県生まれのフロントエンドエンジニア。専門学校ではCやC++といったプログラミング言語を学び、新卒から約8年間、光送受信機や自動車メーターなどのソフトウェア・ハードウェアのデバッグ業務に従事。学生時代から趣味として取り組んでいたWeb開発を仕事にしたいと考え、2017年にWeb制作会社へ転職。サイト更新業務からキャリアをスタートし、サイトリニューアルにおけるフルコーディング、食品関連サイトの運営・保守、WordPressや国産CMSを用いたサイト構築など、幅広い業務を経験してきました。
+              静岡県生まれのフロントエンドエンジニア。専門学校ではCやC++といったプログラミング言語を学び、新卒から約8年間、光送受信機や自動車メーターなどのソフトウェア・ハードウェアのデバッグ業務に従事。学生時代から趣味として取り組んでいたWeb開発を仕事にしたいと考え、心機一転、Web制作会社へ転職。サイト更新業務からキャリアをスタートし、サイトリニューアルにおけるフルコーディング、食品関連サイトの運営・保守、WordPressや国産CMSを用いたサイト構築など、幅広い業務を経験してきました。
             </p>
             <ButtonDefault url="/about" text="More Profile" class="mt-12" />
           </div>
@@ -129,10 +129,7 @@ watch(showContent, async (newVal) => {
         <p class="mt-10 fadeTarget fadeUp">お気軽にお問い合わせください。</p>
         <ul class="mt-8 fadeTarget fadeUp md:text-[20px]">
           <li>
-            <a class="w-fit underline underline-offset-6 hover:text-sub transition-[color_0.3s] flex items-center gap-3 before:content-[''] before:bg-[url(../../images/skills/mail.svg)] before:bg-cover before:inline-block before:w-9 before:h-[34px] md:before:w-[42px] md:before:h-10 focus-visible:right-2" href="mailto:katsumata.tooru.ks@gmail.com">katsumata.tooru.ks@gmail.com</a></li>
-          <li class="mt-6">
-            <a class="w-fit underline underline-offset-6 hover:text-sub transition-[color_0.3s] flex items-center gap-3 before:content-[''] before:bg-[url(../../images/skills/github.svg)] before:bg-cover before:inline-block before:w-9 before:h-[34px] md:before:w-[42px] md:before:h-10 focus-visible:right-2" href="https://github.com/t-katsumata" target="_blank">https://github.com/t-katsumata</a>
-          </li>
+            <a class="w-fit underline underline-offset-6 hover:text-sub transition-[color_0.3s] flex items-center gap-3 before:content-[''] before:bg-[url(../../images/skills/mail.svg)] before:bg-cover before:inline-block before:w-9 before:h-[34px] md:before:w-[42px] md:before:h-10 focus-visible:right-2" href="mailto:fyech873jf@gmail.com">fyech873jf@gmail.com</a></li>
         </ul>
       </CommonSection>
     </PageFadeUp>

@@ -93,14 +93,10 @@ onBeforeUnmount(() => {
             <dt id="currentLocation-label" class="shrink-0 w-28 font-medium">現住所</dt>
             <dd class="max-md:mt-2 max-md:ml-[1em]">東京都中野区</dd>
           </div>
-          <div role="group" aria-labelledby="educational-label" class="md:flex px-2 py-4 border-b border-gray-500">
-            <dt id="educational-label" class="shrink-0 w-28 font-medium">最終学歴</dt>
-            <dd class="max-md:mt-2 max-md:ml-[1em]">沼津情報専門学校 コンピュータ科 情報処理コース<br />（現：沼津情報・ビジネス専門学校 コンピュータ科）</dd>
-          </div>
           <div role="group" aria-labelledby="career-label" class="md:flex px-2 py-4">
             <dt class="shrink-0 w-28 font-medium">経歴</dt>
             <dd id="career-label" class="max-md:mt-2 max-md:ml-[1em]">
-              静岡県生まれのフロントエンドエンジニア。専門学校ではCやC++といったプログラミング言語を学び、新卒から約8年間、光送受信機や自動車メーターなどのソフトウェア・ハードウェアのデバッグ業務に従事。学生時代から趣味として取り組んでいたWeb開発を仕事にしたいと考え、2017年にWeb制作会社へ転職。サイト更新業務からキャリアをスタートし、サイトリニューアルにおけるフルコーディング、食品関連サイトの運営・保守、WordPressや国産CMSを用いたサイト構築など、幅広い業務を経験してきました。
+              静岡県生まれのフロントエンドエンジニア。専門学校ではCやC++といったプログラミング言語を学び、新卒から約8年間、光送受信機や自動車メーターなどのソフトウェア・ハードウェアのデバッグ業務に従事。学生時代から趣味として取り組んでいたWeb開発を仕事にしたいと考え、心機一転、Web制作会社へ転職。サイト更新業務からキャリアをスタートし、サイトリニューアルにおけるフルコーディング、食品関連サイトの運営・保守、WordPressや国産CMSを用いたサイト構築など、幅広い業務を経験してきました。
             </dd>
           </div>
         </dl>
