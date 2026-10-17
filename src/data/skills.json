@@ -76,13 +76,20 @@
             },
             {
               "id": 5,
+              "name": "Bootstrap",
+              "level": 3,
+              "detail": "Ver.3～5、レスポンシブ対応、グリッドレイアウト、ボタン、フォーム、文字の装飾 など",
+              "iconUrl": "/images/skills/bootstrap-logo.svg"
+            },
+            {
+              "id": 6,
               "name": "Tailwind CSS",
               "level": 2,
               "detail": "グリッドシステム、ユーティリティクラス、フォーム・モーダル、Vue連携",
               "iconUrl": "/images/skills/tailwind-css.svg"
             },
             {
-              "id": 6,
+              "id": 7,
               "name": "jQuery",
               "level": 5,
               "detail": "DOM操作、Ajax、主にレガシー案件対応",
@@ -292,7 +299,7 @@
         "id": 6,
         "name": "Adobe Photoshop",
         "type": "デザイン編集",
-        "detail": "基本操作、画像の修正、スライスして各パーツを素材化",
+        "detail": "基本操作、画像の修正、バナー作成、スライスして各パーツを素材化",
         "iconUrl": "/images/skills/adobe-photoshop.svg"
       },
       {
@@ -301,6 +308,13 @@
         "type": "デザイン編集",
         "detail": "基本操作、スライスして各パーツを素材化",
         "iconUrl": "/images/skills/adobe-illustrator.svg"
+      },
+      {
+        "id": 8,
+        "name": "ChatGPT",
+        "type": "生成AIサービス",
+        "detail": "メール文章の添削、コード生成、コードレビュー、トラブルシューティング、バナーデザイン提案",
+        "iconUrl": "/images/skills/chatgpt.svg"
       }
     ]
   },
